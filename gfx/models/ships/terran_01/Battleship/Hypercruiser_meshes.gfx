@@ -1,0 +1,203 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "terran_01_dreadnought_battleship_stern_mesh"
+		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_stern.mesh"
+		scale = 12.0
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_stabilisers"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_underhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_underhull_normal.dds"
+			texture_specular = "battleship_dreadnought_underhull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_fins"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_wing_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_wing_normal.DDS"
+			texture_specular = "battleship_dreadnought_wing_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_rear"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_overhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_overhull_normal.DDS"
+			texture_specular = "battleship_dreadnought_overhull_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_engines"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_engine_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_engine_normal.DDS"
+			texture_specular = "battleship_dreadnought_engine_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_windows"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_window_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_window_normal.DDS"
+			texture_specular = "battleship_dreadnought_window_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_armour"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_hammerhead_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_hammerhead_normal.DDS"
+			texture_specular = "battleship_dreadnought_hammerhead_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_stern_guns"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_bow_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_bow_normal.DDS"
+			texture_specular = "battleship_dreadnought_bow_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "terran_01_dreadnought_battleship_hammerhead_mesh"
+		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_hammerhead.mesh"
+		scale = 12.0
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_basee"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_hammerhead_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_hammerhead_normal.DDS"
+			texture_specular = "battleship_dreadnought_hammerhead_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_armour"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_overhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_overhull_normal.DDS"
+			texture_specular = "battleship_dreadnought_overhull_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_guns"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_bow_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_bow_normal.DDS"
+			texture_specular = "battleship_dreadnought_bow_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_pipes"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_wing_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_wing_normal.DDS"
+			texture_specular = "battleship_dreadnought_wing_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_windows"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_window_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_window_normal.DDS"
+			texture_specular = "battleship_dreadnought_window_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_hammerhead_lighters"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_underhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_underhull_normal.dds"
+			texture_specular = "battleship_dreadnought_underhull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "terran_01_dreadnought_battleship_deck_mesh"
+		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_deck.mesh"
+		scale = 12.0
+
+		meshsettings = {
+			name = "terran_01_battleship_deck_base"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_bow_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_bow_normal.DDS"
+			texture_specular = "battleship_dreadnought_bow_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_deck_gun_accessory"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_underhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_underhull_normal.dds"
+			texture_specular = "battleship_dreadnought_underhull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_deck_pipes"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_wing_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_wing_normal.DDS"
+			texture_specular = "battleship_dreadnought_wing_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_deck_windows"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_window_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_window_normal.DDS"
+			texture_specular = "battleship_dreadnought_window_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "terran_01_battleship_deck_gun_bases"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_overhull_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_overhull_normal.DDS"
+			texture_specular = "battleship_dreadnought_overhull_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "terran_01_dreadnought_battleship_frontal_battery_mesh"
+		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_frontal_battery.mesh"
+		scale = 12.0
+
+		meshsettings = {
+			name = "terran_01_battleship_frontal_battery"
+			index = 0
+			texture_diffuse = "battleship_dreadnought_bow_diffuse.DDS"
+			texture_normal = "battleship_dreadnought_bow_normal.DDS"
+			texture_specular = "battleship_dreadnought_bow_specular.DDS"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "empty_mesh"
+		file = "gfx/models/ships/Hypercruiser/empty.mesh"
+		scale = 1.0
+	}
+}

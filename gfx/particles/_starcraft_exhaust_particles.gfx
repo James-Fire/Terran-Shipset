@@ -1,0 +1,231 @@
+objectTypes = {
+	pdxparticle = {
+		name = "terran_01_0_40_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 0.40
+	}
+	
+	pdxparticle = {
+		name = "terran_01_0_80_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 0.80
+	}
+	
+	pdxparticle = {
+		name = "terran_01_3_00_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 3.00
+	}
+	
+	pdxparticle = {
+		name = "terran_01_8_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_12_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 12.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_16_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 16.0
+	}
+	
+	# MOVING
+	
+	pdxparticle = {
+		name = "terran_01_0_40_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 0.40
+	}
+	
+	pdxparticle = {
+		name = "terran_01_0_80_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 0.80
+	}
+	
+	pdxparticle = {
+		name = "terran_01_3_00_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 3.00
+	}
+	
+	pdxparticle = {
+		name = "terran_01_8_0_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_12_0_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 12.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_16_0_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 16.0
+	}
+	
+	## YELLOW
+	# IDLE
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_40_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 0.40
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_65_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_80_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 0.80
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_1_20_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 1.20
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_2_35_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 2.35
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_3_00_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 3.00
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_3_35_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 3.35
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_8_0_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_16_0_exhaust_small_idle_particle"
+		type = "arthropoid_01_ship_exhaust_idle_file"
+		scale = 16.0
+	}
+	
+	# MOVING
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_40_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 0.40
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_65_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_0_80_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 0.80
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_1_20_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 1.20
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_2_35_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 2.35
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_3_00_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 3.00
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_3_35_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 3.35
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_8_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 8.0
+	}
+	
+	pdxparticle = {
+		name = "terran_01_yellow_16_0_ship_exhaust_moving_particle"
+		type = "arthropoid_01_ship_exhaust_file"
+		scale = 16.0
+	}
+	
+	######
+	# PROTOSS 01
+	######
+	
+	pdxparticle = {
+		name = "protoss_01_24_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 24.0
+	}
+	
+	pdxparticle = {
+		name = "protoss_01_48_0_exhaust_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_file"
+		scale = 48.0
+	}
+	
+	pdxparticle = {
+		name = "protoss_01_48_0_exhaust_oblong_idle_particle"
+		type = "mammalian_01_ship_exhaust_idle_large_file"
+		scale = 48.0
+	}
+	
+	# MOVING
+	
+	pdxparticle = {
+		name = "protoss_01_24_0_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 24.0
+	}
+	
+	pdxparticle = {
+		name = "protoss_01_48_0_exhaust_moving_particle"
+		type = "mammalian_01_ship_exhaust_file"
+		scale = 48.0
+	}
+	
+	pdxparticle = {
+		name = "protoss_01_48_0_ship_exhaust_oblong_moving_particle"
+		type = "mammalian_01_ship_exhaust_oblong_file"
+		scale = 48.0
+	}
+	
+}

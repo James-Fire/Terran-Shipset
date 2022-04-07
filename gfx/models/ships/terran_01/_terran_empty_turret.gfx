@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "empty_turret_mesh"
+		file = "gfx/models/ships/terran_01/terran_empty_turret.mesh"
+		scale = 1.0
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "empty_mesh"
+		file = "gfx/models/ships/terran_01/terran_01_interceptor.mesh"
+		scale = 0.0
+	}
+}
+

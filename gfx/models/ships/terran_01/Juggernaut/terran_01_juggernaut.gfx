@@ -1,0 +1,10 @@
+objectTypes = {
+	pdxmesh = {
+		name = "gorgon_mesh"
+		file = "gfx/models/ships/terran_01/Juggernaut/terran_01_juggernaut.mesh"
+		scale = 20
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+}

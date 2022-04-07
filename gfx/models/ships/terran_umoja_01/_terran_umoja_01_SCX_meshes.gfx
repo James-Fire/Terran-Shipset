@@ -1,0 +1,97 @@
+objectTypes = {
+
+#######  SCX  #######	
+	
+pdxmesh = {
+		name = "terran_umoja_01_scx_carrier_mesh"
+		file = "gfx/models/ships/terran_umoja_01/terran_umoja_01_carrier.mesh"
+		scale = 6.0
+		
+		scale = 10.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 2
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+		}
+}
+pdxmesh = {
+		name = "terran_umoja_01_scx_dreadnought_mesh"
+		file = "gfx/models/ships/terran_umoja_01/terran_umoja_01_dreadnought.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 0
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 1
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 2
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 3
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 4
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Terran_Battlecruiser_07"
+            index = 5
+            texture_diffuse = "umoja_01_battlecruiser_diffuse.dds"
+            texture_normal = "umoja_01_battlecruiser_normal.dds"
+            texture_specular = "umoja_01_battlecruiser_specular.dds"
+            shader = "PdxMeshShip"
+		}
+}
