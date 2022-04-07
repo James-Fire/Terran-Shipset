@@ -75,44 +75,44 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_battleship_mid_L1M4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "terran_01_battleship_mid_L2M2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}	
 		
 	pdxmesh = {
 		name = "terran_01_battleship_mid_L2S4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "terran_01_battleship_mid_L3_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "terran_01_battleship_mid_M4SHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "terran_01_battleship_mid_S4LHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 				
 				####carrier sec####
 	pdxmesh = {
 		name = "terran_01_battleship_mid_2_M4SHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 1.0
 	}
 		

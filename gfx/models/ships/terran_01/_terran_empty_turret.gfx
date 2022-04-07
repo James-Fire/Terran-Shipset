@@ -6,3 +6,11 @@ objectTypes = {
 	}
 }
 
+objectTypes = {
+	pdxmesh = {
+		name = "empty_mesh"
+		file = "gfx/models/ships/terran_01/Strike Craft/terran_01_interceptor.mesh"
+		scale = 0.0
+	}
+}
+
