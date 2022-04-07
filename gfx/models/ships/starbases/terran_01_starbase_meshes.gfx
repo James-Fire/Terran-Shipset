@@ -5,7 +5,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_turrets_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_turrets.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_turrets.mesh"
 		scale = 1.0
 
 		meshsettings = {
@@ -20,7 +20,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_citadel_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_citadel.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_citadel.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -35,7 +35,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_starfortress_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_starfortress.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_starfortress.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -50,7 +50,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_starhold_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_starhold.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_starhold.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -65,7 +65,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_starport_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_starport.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_starport.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -80,7 +80,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_outpost_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_outpost.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_outpost.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -95,7 +95,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_ioncannon_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_ioncannon.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_ioncannon.mesh"
 		scale = 2.0
 
 		meshsettings = {
@@ -110,7 +110,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_station_mesh"
-		file = "gfx/models/ships/terran_01/terran_01_station.mesh"
+		file = "gfx/models/ships/terran_01/Starbase/terran_01_station.mesh"
 		scale = 1.0
 
 		meshsettings = {

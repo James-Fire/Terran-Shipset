@@ -2,7 +2,7 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "terran_01_dreadnought_battleship_stern_mesh"
-		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_stern.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
 		scale = 12.0
 
 		meshsettings = {
@@ -71,7 +71,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_dreadnought_battleship_hammerhead_mesh"
-		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_hammerhead.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
 		scale = 12.0
 
 		meshsettings = {
@@ -131,7 +131,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_dreadnought_battleship_deck_mesh"
-		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_deck.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
 		scale = 12.0
 
 		meshsettings = {
@@ -182,7 +182,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_dreadnought_battleship_frontal_battery_mesh"
-		file = "gfx/models/ships/Hypercruiser/terran_01_battleship_frontal_battery.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
 		scale = 12.0
 
 		meshsettings = {
@@ -197,7 +197,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "empty_mesh"
-		file = "gfx/models/ships/Hypercruiser/empty.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/empty.mesh"
 		scale = 1.0
 	}
 }
