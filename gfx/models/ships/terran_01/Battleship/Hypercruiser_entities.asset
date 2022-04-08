@@ -26,9 +26,9 @@ entity = {
 		event = { time = 9.5 node = "explosion_locator_05" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
 		event = { time = 12.5 node = "ship_main" particle = "dreadnought_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "amb_titan_ship_death" } }
 	}
-	scale = 0.255
+	
 	game_data = {
-		size = 30.0
+		size = 16.0
 		emissive_recolor_crunch = 5.0
 	}
 }
@@ -96,9 +96,11 @@ entity = {
 		
 		event = { time = 15.9 node = "part2" particle = "large_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
 	}
-	scale = 0.25	
+	
+	scale = 1.0
+	
 	game_data = {
-		size = 0.0001
+		size = 24.0
 		emissive_recolor_crunch = 5.0
 	}
 }
@@ -127,10 +129,10 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.25
+
 	game_data = {
 		trail_locators = {
-			"engine_large_01" = 		{ width = @medium_trail_W 	length = @medium_trail_L   	}
+			"engine_large_01" = 		{ width = @medium_trail_W 	lenght = @medium_trail_L   	}
 	# XL weapon windup locator names: xl_windup_1-10
 		}
 	}
@@ -217,7 +219,7 @@ entity = {
 		event = { time = 0 node = "lights_32" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 		event = { time = 0 node = "lights_33" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = 0.25
+	
 	state = { name = "death" state_time = 5 }
 }
 
@@ -285,15 +287,15 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.25
+
 	game_data = {
 		trail_locators = {
-			"engine_large_01" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
-			"engine_large_02" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
-			"engine_large_03" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
-			"engine_large_04" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
-			"engine_large_05" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
-			"engine_large_06" = 		{ width = @large_trail_W 	length = @large_trail_L   	}
+			"engine_large_01" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
+			"engine_large_02" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
+			"engine_large_03" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
+			"engine_large_04" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
+			"engine_large_05" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
+			"engine_large_06" = 		{ width = @large_trail_W 	lenght = @large_trail_L   	}
 	# XL weapon windup locator names: xl_windup_1-10
 		}
 	}

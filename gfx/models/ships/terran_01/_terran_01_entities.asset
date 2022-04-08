@@ -807,41 +807,45 @@ entity = {
 # BOW
 entity = {
 	name = "terran_01_battleship_bow_L1M1S2_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 
 }
 
 entity = {
 	name = "terran_01_battleship_bow_L1S4_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_bow_L2_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_bow_M1S2SHB_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 	
 	locator = {
 		name = "strike_craft_locator_01"
@@ -851,7 +855,7 @@ entity = {
 
 entity = {
 	name = "terran_01_battleship_bow_M2S4_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -859,31 +863,33 @@ entity = {
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_bow_M3S2_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_bow_XL1_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_bow_mesh"
 	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	# XL weapon windup locator names: 
-	scale = 0.1
+	scale = 1
 }
 
 #MID
 entity = {
 	name = "terran_01_battleship_mid_L2S4_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -892,14 +898,14 @@ entity = {
 	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
 
-	scale = 1.1
+	scale = 1
 	
 }
 
 
 entity = {
 	name = "terran_01_battleship_mid_L1M4_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -907,38 +913,38 @@ entity = {
 	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
 
-	scale = 1.1
+	scale = 1
 	
 }
 
 entity = {
 	name = "terran_01_battleship_mid_L2M2_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 
-	scale = 1.1
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_mid_L3_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 
-	scale = 1.1
+	scale = 1
 
 }
 
 
 entity = {
 	name = "terran_01_battleship_mid_M4SHB_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -950,13 +956,13 @@ entity = {
 		rotation = { -90 0 0 }
 	}
 	
-	scale = 1.1
+	scale = 1
 
 }
 
 entity = {
 	name = "terran_01_battleship_mid_S4LHB_entity"
-	pdxmesh = "terran_01_battlecruiser_mesh"
+	pdxmesh = "terran_01_battleship_mid_mesh"
 	
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
@@ -971,7 +977,7 @@ entity = {
 		name = "strike_craft_locator_02"
 		rotation = { -90 0 0 }
 	}
-	scale = 1.1
+	scale = 1
 }
 
 
@@ -980,38 +986,41 @@ entity = {
 
 entity = {
 	name = "terran_01_battleship_stern_L1_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_stern_mesh"
 	
 	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
-
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_stern_M1S2_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_stern_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 entity = {
 	name = "terran_01_battleship_stern_M2_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_stern_mesh"
 	
 	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 
 }
 
 entity = {
 	name = "terran_01_battleship_stern_S4_entity"
-	pdxmesh = "empty_mesh"
+	pdxmesh = "terran_01_battleship_stern_mesh"
 	
 	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	scale = 1
 }
 
 

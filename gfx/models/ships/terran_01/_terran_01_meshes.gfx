@@ -29,117 +29,26 @@ objectTypes = {
 
 	}	
 #######  Battleship bow sections  #######
+	
 	pdxmesh = {
-		name = "terran_01_battleship_bow_L1M1S2_mesh"
+		name = "terran_01_battleship_bow_mesh"
 		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}
-		
-	pdxmesh = {
-		name = "terran_01_battleship_bow_L1S4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
+		scale = 4.0
 	}	
 		
+#######  Battleship mid sections  #######
 	pdxmesh = {
-		name = "terran_01_battleship_bow_L2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_bow_M1S2SHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}
-	
-		pdxmesh = {
-		name = "terran_01_battleship_bow_M2S4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_bow_M3S2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_bow_XL1_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 1.0
-	}	
-		
-#######  Battleship mid sections  #######			
-	
-	pdxmesh = {
-		name = "terran_01_battleship_mid_L1M4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_mid_L2M2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}	
-		
-	pdxmesh = {
-		name = "terran_01_battleship_mid_L2S4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_mid_L3_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_mid_M4SHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}
-	
-	pdxmesh = {
-		name = "terran_01_battleship_mid_S4LHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
-	}
-				
-				####carrier sec####
-	pdxmesh = {
-		name = "terran_01_battleship_mid_2_M4SHB_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frontal_battery.mesh"
-		scale = 1.0
+		name = "terran_01_battleship_mid_mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
+		scale = 4.0
 	}
 		
 #######  Battleship stern sections  #######	
 	
 	pdxmesh = {
-		name = "terran_01_battleship_stern_L1_mesh"
+		name = "terran_01_battleship_stern_mesh"
 		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
-		scale = 1.0
-	}
-		
-	pdxmesh = {
-		name = "terran_01_battleship_stern_M1S2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
-		scale = 1.0
-	}
-
-	pdxmesh = {
-		name = "terran_01_battleship_stern_M2_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
-		scale = 1.0
-	}
-		
-	pdxmesh = {
-		name = "terran_01_battleship_stern_S4_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
-		scale = 1.0
+		scale = 4.0
 	}
 	
 	pdxmesh = {
