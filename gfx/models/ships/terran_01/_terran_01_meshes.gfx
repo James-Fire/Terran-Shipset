@@ -4,43 +4,42 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "terran_01_titan_mesh"
-		file = "gfx/models/ships/terran_01/Titan/terran_01_titan.mesh"
-		scale = 1.0
+		file = "gfx/models/ships/terran_01/Titan/loki.mesh"
+		scale = 5.0
 
 		meshsettings = {
 		
-			texture_diffuse = "battlecruiser2.dds"
-			texture_normal = "battlecruiser-normal.dds"
-			texture_specular = "battlecruiser-specular.dds"
+			texture_diffuse = "loki_diffuse.dds"
+			texture_normal = "loki_normal.dds"
+			texture_specular = "loki_specular.dds"
 			
 			shader = "PdxMeshShip"
 		}
 	}
 ######	Battleship Frame Mesh	######
 	
-	pdxmesh = {
+pdxmesh = {
 		name = "terran_01_battleship_frame_mesh"
-		file = "gfx/models/ships/terran_01/Battleship/terran_01_battlecruiser_frame.mesh"
+		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_frame.mesh"
 		animation = { id = "idle"			type = "mammalian_01_battleship_frame_idle_animation" }
 		animation = { id = "death"			type = "mammalian_01_battleship_frame_death_animation" }
 		animation = { id = "death2"			type = "mammalian_01_battleship_frame_death2_animation" }
 		animation = { id = "death3"			type = "mammalian_01_battleship_frame_death3_animation" }
-		scale = 1.0
-
-	}	
+		scale = 2.0
+}	
 #######  Battleship bow sections  #######
 	
 	pdxmesh = {
 		name = "terran_01_battleship_bow_mesh"
 		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_hammerhead.mesh"
-		scale = 4.0
+		scale = 2.0
 	}	
 		
 #######  Battleship mid sections  #######
 	pdxmesh = {
 		name = "terran_01_battleship_mid_mesh"
 		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_deck.mesh"
-		scale = 4.0
+		scale = 2.0
 	}
 		
 #######  Battleship stern sections  #######	
@@ -48,13 +47,13 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_battleship_stern_mesh"
 		file = "gfx/models/ships/terran_01/Battleship/terran_01_battleship_stern.mesh"
-		scale = 4.0
+		scale = 2.0
 	}
 	
 	pdxmesh = {
 		name = "terran_01_cruiser_mesh"
 		file = "gfx/models/ships/terran_01/Cruiser/terran_01_cruiser.mesh"
-		scale = 2
+		scale = 0.75
 
 		meshsettings = {
 			
@@ -69,7 +68,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_destroyer_mesh"
 		file = "gfx/models/ships/terran_01/Destroyer/terran_01_destroyer.mesh"
-		scale = 1.25
+		scale = 0.5
 
 		meshsettings = {
 			
@@ -84,7 +83,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_corvette_mesh"
 		file = "gfx/models/ships/terran_01/Corvette/terran_01_corvette.mesh"
-		scale = 1.0
+		scale = 0.25
 
 		meshsettings = {
 			
@@ -114,7 +113,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_transportship_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/terran_01_transportship.mesh"
-		scale = 1
+		scale = 0.25
 
 		meshsettings = {
 			
@@ -129,7 +128,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_constructor_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/construction_ship/terran_01_constructor.mesh"
-		scale = 1.0
+		scale = 0.25
 
 		meshsettings = {
 			
@@ -144,7 +143,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "terran_01_scienceship_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/science_ship/terran_01_scienceship.mesh"
-		scale = 1.5
+		scale = 0.5
 
 		meshsettings = {
 			
