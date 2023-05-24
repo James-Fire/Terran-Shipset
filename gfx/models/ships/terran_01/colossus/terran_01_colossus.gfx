@@ -1,0 +1,43 @@
+objectTypes = {
+    pdxmesh = {
+        name = "terran_01_colossus_mesh"
+        file = "gfx/models/ships/terran_01/colossus/terran_01_colossus.mesh"
+        scale = 1
+
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "laserdrill_tripod_turret_diffuse.dds"
+            texture_normal = "laserdrill_tripod_turret_normal.dds"
+            texture_specular = "laserdrill_tripod_turret_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "xanthos_diff.dds"
+            texture_normal = "xanthos_norm.dds"
+            texture_specular = "xanthos_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 2
+            texture_diffuse = "xanthos_diff.dds"
+            texture_normal = "xanthos_norm.dds"
+            texture_specular = "xanthos_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 3
+            texture_diffuse = "xanthos_diff.dds"
+            texture_normal = "xanthos_norm.dds"
+            texture_specular = "xanthos_spec.dds"
+            shader = "PdxMeshShip"
+        }
+    }
+}

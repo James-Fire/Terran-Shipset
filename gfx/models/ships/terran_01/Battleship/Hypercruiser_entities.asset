@@ -258,6 +258,36 @@ entity = {
 		event = { time = 0 node = "engine_large_05" particle = "terran_01_16_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
 		event = { time = 0 node = "engine_large_06" particle = "terran_01_16_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
 	}
+	state = { name = moving	state_time = 5
+		event = { time = 0 node = "lights_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_07" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_08" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_09" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_10" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_11" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_12" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_13" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_14" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_15" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_16" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_17" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_18" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_19" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_20" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "lights_21" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+
+		event = { time = 0 node = "engine_large_01" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_05" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_06" particle = "terran_01_16_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
 	
 	state = { name = moving	state_time = 5
 		event = { time = 0 node = "lights_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }

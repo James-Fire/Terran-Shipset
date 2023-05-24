@@ -53,7 +53,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_cruiser_mesh"
 		file = "gfx/models/ships/terran_01/Cruiser/terran_01_cruiser.mesh"
-		scale = 0.75
+		scale = 12
 
 		meshsettings = {
 			
@@ -68,7 +68,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_destroyer_mesh"
 		file = "gfx/models/ships/terran_01/Destroyer/terran_01_destroyer.mesh"
-		scale = 0.5
+		scale = 2.5
 
 		meshsettings = {
 			
@@ -83,7 +83,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_corvette_mesh"
 		file = "gfx/models/ships/terran_01/Corvette/terran_01_corvette.mesh"
-		scale = 0.25
+		scale = 1.5
 
 		meshsettings = {
 			
@@ -98,7 +98,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_colony_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/terran_01_transportship.mesh"
-		scale = 0.5
+		scale = 2
 
 		meshsettings = {
 			
@@ -113,7 +113,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_transportship_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/terran_01_transportship.mesh"
-		scale = 0.25
+		scale = 2
 
 		meshsettings = {
 			
@@ -128,7 +128,7 @@ pdxmesh = {
 	pdxmesh = {
 		name = "terran_01_constructor_mesh"
 		file = "gfx/models/ships/terran_01/Non-combat/construction_ship/terran_01_constructor.mesh"
-		scale = 0.25
+		scale = 3.5
 
 		meshsettings = {
 			

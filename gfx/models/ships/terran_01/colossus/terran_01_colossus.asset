@@ -1,0 +1,54 @@
+entity = {
+	name = "terran_01_colossus_entity"
+	pdxmesh = "molluscoid_01_colossus_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" }
+	state = { name = "moving" animation = "idle" }
+	state = { name = "working" animation = "idle" }
+	state = { name = "death" animation = "closed_death" looping = no 
+		event = { time = 13.46 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+			}
+		}
+	}
+	state = { name = "death" animation = "opened_death" looping = no 
+		event = { time = 9.8 node = "ship_explosion" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+			}
+		}
+	}
+	
+	locator = { name = "part1" position = { -50 0 0 } }
+	locator = { name = "part3" position = { -50 0 0 } }
+	
+}
+
+entity = {
+	name = "terran_01_colossus_ship_entity"
+	pdxmesh = "terran_01_colossus_mesh"
+	
+	scale = 9.3
+
+	locator = { name = "planet_killer_gun_01" position = { 0 0 0 } } # Actual locator in mesh.
+	default_state = "idle"
+	state = { name = idle    state_time = 5
+        event = { time = 0 node = "engine_large_01" particle = "terran_01_8_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+        event = { time = 0 node = "engine_large_02" particle = "terran_01_8_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+    }
+    
+    state = { name = moving    state_time = 5
+        event = { time = 0 node = "engine_large_01" particle = "terran_01_8_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+        event = { time = 0 node = "engine_large_02" particle = "terran_01_8_0_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+    }
+}

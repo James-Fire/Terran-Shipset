@@ -4,4 +4,4 @@ tags={
 }
 picture="thumbnail.png"
 name="Terran Shipset"
-supported_version="3.3.*"
+supported_version="3.8.*"
